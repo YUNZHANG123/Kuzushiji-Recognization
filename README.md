@@ -1,8 +1,14 @@
 # kuzushiji_recognition
 
-code for kaggle [kuzushiji recognition] (https://www.kaggle.com/c/kuzushiji-recognition)  
+Hey, this is our github link for Kaggle Competition.
+Our team has three members, all of us are high school students:
+ZhangYun(Sophia)
+Chen Steve
+Ziqi Zhao
 
-A two-stage approach is adopted: Detection + Classification. Out-of-the-box object detection methods, such as Faster-RCNN, SSD, can solve these tow problems together. However, our experiments showed bad results. Therefore, we firstly detect the kuzushiji with Faster-RCNN/RetinaNet detector and classify the proposals later with ResNet50/Xception.    
+The code for kaggle [kuzushiji recognition] (https://www.kaggle.com/c/kuzushiji-recognition)  
+
+For this problem, a two-stage approach is adopted: Detection + Classification. Out-of-the-box object detection methods, such as Faster-RCNN, SSD, can solve these tow problems together. However, our experiments showed bad results. Therefore, we firstly detect the kuzushiji with Faster-RCNN/RetinaNet detector and classify the proposals later with ResNet50/Xception.    
 
 ## Proposal detection
 
@@ -62,7 +68,7 @@ it reads the detection results from detection.csv, extract the content in the bo
 Below are the papers for all team members.
 ![steve](https://github.com/YUNZHANG123/Kuzushiji-Recognization/blob/master/paper/steve.png)
 ![sophia](https://github.com/YUNZHANG123/Kuzushiji-Recognization/blob/master/paper/sophia.png)
-![ziqing](https://github.com/YUNZHANG123/Kuzushiji-Recognization/blob/master/paper/zhaoziqing.png)
+![ziqi](https://github.com/YUNZHANG123/Kuzushiji-Recognization/blob/master/paper/zhaoziqi.png)
 
 ## Results
 

@@ -24,13 +24,13 @@ Usefully links:
 - [Google object detection Api](https://github.com/tensorflow/models/tree/master/research/object_detection)
 - [Api Tutorial](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/)
 
-### export inference graph 
+### export inference graph
 
 Use ```export_inference_graph.py``` (by Google object detection Api) to export the inference graph, refer to [link](https://tensorflow-object-detection-api-tutorial.readthedocs.io/en/latest/training.html#exporting-a-trained-inference-graph)
 
 ### run prediction
 
-Run ```detection.py```, predicted bounding boxes will be saved as detection.csv. Remember to change the test image path and inference graph path to point to the right place of your file orgnization. 
+Run ```detection.py```, predicted bounding boxes will be saved as detection.csv. Remember to change the test image path and inference graph path to point to the right place of your file orgnization.
 
 ## Classification
 
@@ -58,6 +58,12 @@ to extract kuzushiji patches for traing. Patches will be saved as .npy files. Re
 
 it reads the detection results from detection.csv, extract the content in the bounding box and classify the kuzushiji label. Labels and the coordinated of the bounding box center will be saved in submission.csv.
 
+## Papers
+Below are the papers for all team members.
+![steve](https://github.com/YUNZHANG123/Kuzushiji-Recognization/blob/master/paper/steve.png)
+![sophia](https://github.com/YUNZHANG123/Kuzushiji-Recognization/blob/master/paper/sophia.png)
+![ziqing](https://github.com/YUNZHANG123/Kuzushiji-Recognization/blob/master/paper/zhaoziqing.png)
+
 ## Results
 
 The pipeline achieves ~0.76 evaluation score. Rank 57/293 in Leaderboard(https://www.kaggle.com/c/kuzushiji-recognition/leaderboard).
@@ -69,5 +75,3 @@ The pipeline achieves ~0.76 evaluation score. Rank 57/293 in Leaderboard(https:/
 
 ## Detection + Classification results
 <img src="./vis/res_vis.png" width="800px">
-
-

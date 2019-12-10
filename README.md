@@ -3,7 +3,9 @@
 Hey, this is our github link for Kaggle Competition.
 Our team has three members, and all of us are high school students:
 ZhangYun(Sophia): Crawler and data visualization by python
+
 Chen Steve: ResNet Application for Classification of Kuzushiji Recognition
+
 Ziqi Zhao: Object Detecion with Neural Network and Faster-RCNN
 
 The code for kaggle [kuzushiji recognition] (https://www.kaggle.com/c/kuzushiji-recognition)  
